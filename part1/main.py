@@ -3,7 +3,7 @@ data = []
 counter = 0
 
 #Import words from data file
-f = open('./data.txt')
+f = open('../data.txt')
 for word in f:
     data.append(word)
 
